@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Destinations</title>
+    <link rel="stylesheet" href="style.css">
+    <button id="darkToggle">🌙</button>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<div style="padding:20px;">
+    
+</div>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h1 style="padding:30px;"><u>Popular Destinations</u></h1>
+
+<section id="destination-list" class="grid"></section>
+
+<script src="script.js"></script>
+<script> loadDestinations(); </script>
+<h1 class="scroll-anim">Find Your Perfect Destination</h1>
+
+<p class="scroll-anim" style="font-size:18px;line-height:1.8;">
+Whether you’re seeking a tropical escape, a cultural adventure, or a peaceful natural retreat,
+our destination library offers a wide selection tailored to every traveler’s taste.
+Use the search bar below to filter places based on name, country, climate, or type of experience.
+The search system provides smart suggestions and accurate results to help you quickly find what you are looking for.
+</p>
+<div style="padding:20px; position: relative;">
+    <input id="searchBox" type="text" placeholder="Search destinations..." 
+           style="width:100%;padding:12px;border-radius:8px;font-size:16px;">
+
+    <div id="suggestions" 
+         style="position:absolute; background:white; width:100%; border-radius:8px;
+         box-shadow:0 3px 10px rgba(0,0,0,0.3); display:none; z-index:1000;">
+    </div>
+</div>
+
+
+</body>
+</html>

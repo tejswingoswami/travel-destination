@@ -1,0 +1,96 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Sunny Beach",
+      "location": "Maldives",
+      "image": "images/beach.jpg",
+      "description": "A glowing tropical paradise with crystal-clear water and soft white sands.",
+      "details": "Known for its calm waves, warm sunlight and beautiful coral reefs, this island is perfect for relaxing, snorkeling and marine photography."
+    },
+    {
+      "id": 2,
+      "name": "Misty Mountain",
+      "location": "Switzerland",
+      "image": "images/mountain.jpg",
+      "description": "A peaceful escape surrounded by towering snow-capped mountains.",
+      "details": "This region offers scenic hiking trails, breathtaking valleys and cool alpine air ideal for explorers and nature lovers."
+    },
+    {
+      "id": 3,
+      "name": "Neon City",
+      "location": "Tokyo, Japan",
+      "image": "images/city.jpg",
+      "description": "A lively futuristic city filled with bright lights, rich culture and modern attractions.",
+      "details": "From traditional temples to high-tech districts, Tokyo offers a perfect mix of history and innovation."
+    }
+  ]
+}
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Sunny Beach Paradise",
+      "location": "Maldives",
+      "image": "images/beach.jpg",
+      "description": "Crystal-clear turquoise waters and white sandy beaches perfect for relaxation.",
+      "details": "Sunny Beach Paradise is one of the most breathtaking islands in the Maldives. Known for its luxurious resorts, coral reefs, calm shallow water, and unmatched sunsets, this destination is ideal for swimming, snorkeling, romantic getaways, and marine photography."
+    },
+    {
+      "id": 2,
+      "name": "Misty Mountain Peaks",
+      "location": "Swiss Alps, Switzerland",
+      "image": "images/mountain.jpg",
+      "description": "Snow-capped mountains offering peaceful hiking trails and scenic beauty.",
+      "details": "The Misty Mountain Peaks provide an unforgettable alpine experience. Whether you're hiking along the crystal-blue lakes, enjoying cable car rides, or admiring snow valleys, the Swiss Alps offer fresh air and dramatic landscapes that feel like a painting come to life."
+    },
+    {
+      "id": 3,
+      "name": "Neon City Lights",
+      "location": "Tokyo, Japan",
+      "image": "images/city.jpg",
+      "description": "A vibrant futuristic city filled with neon lights, technology, and culture.",
+      "details": "Tokyo combines ancient traditions with cutting-edge innovation. Explore neon-lit districts, world-famous cuisine, anime culture, historic temples, themed cafes, and night markets. Every street feels alive with bright colors and endless energy."
+    },
+    {
+      "id": 4,
+      "name": "Emerald Waterfall Escape",
+      "location": "Bali, Indonesia",
+      "image": "images/waterfall.jpg",
+      "description": "A breathtaking waterfall hidden inside a tropical jungle sanctuary.",
+      "details": "Surrounded by lush green cliffs and natural pools, the Emerald Waterfall Escape is a paradise for adventure seekers. Visitors can swim beneath the cool cascade, explore jungle trails, and enjoy the refreshing mist rising from the rocks."
+    },
+    {
+      "id": 5,
+      "name": "Golden Desert Dunes",
+      "location": "Sahara Desert",
+      "image": "images/desert.jpg",
+      "description": "Endless golden sand dunes glowing under the warm sunset sky.",
+      "details": "The Sahara Desert is known for its dramatic sand dunes, camel rides, and stunning night skies filled with stars. The golden sunset transforms the landscape into a glowing masterpiece, offering peace, silence, and unforgettable desert experiences."
+    },
+    {
+      "id": 6,
+      "name": "Frozen Pine Forest",
+      "location": "Norway",
+      "image": "images/snow.jpg",
+      "description": "A magical forest covered in snow with peaceful winter scenery.",
+      "details": "The Frozen Pine Forest is the perfect winter wonderland. Walk through snow-covered trails, witness the northern lights, and enjoy the cozy charm of wooden cabins surrounded by peaceful winter silence."
+    },
+    {
+      "id": 7,
+      "name": "Ancient Temple Kingdom",
+      "location": "Angkor Wat, Cambodia",
+      "image": "images/temple.jpg",
+      "description": "A historic temple complex with ancient architecture and mystical beauty.",
+      "details": "This UNESCO World Heritage site features ancient stone temples, intricate carvings, and a mystical atmosphere. Angkor Wat is a cultural treasure where history comes alive through every pillar and corridor."
+    },
+    {
+      "id": 8,
+      "name": "Coral Reef Bay",
+      "location": "Australia",
+      "image": "images/coral.jpg",
+      "description": "A colorful underwater paradise filled with coral reefs and marine life.",
+      "details": "Coral Reef Bay offers crystal-clear waters perfect for scuba diving and snorkeling. Vibrant corals, tropical fish, and underwater cliffs create an unforgettable aquatic adventure."
+    }
+  ]
+}
