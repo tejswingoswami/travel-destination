@@ -1,0 +1,255 @@
+/* ---- GENERAL STYLES ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f2f5f9;
+    color: #222;
+    overflow-x: hidden;
+}
+
+/* ---- HEADER ---- */
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d7e9ff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #ffffff;
+}
+
+/* ---- HERO SECTION ---- */
+.hero {
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    animation: fadeIn 1.5s ease;
+    text-shadow: 0 3px 10px #000;
+}
+
+.hero h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    animation: slideDown 1.5s ease;
+}
+
+.hero p {
+    font-size: 22px;
+    width: 50%;
+    animation: slideUp 1.5s ease;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #0076ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.button:hover {
+    background: #0058c8;
+    transform: scale(1.07);
+}
+
+/* ---- DESTINATION CARDS ---- */
+.grid {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: cardFadeUp 1s forwards;
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.card img:hover {
+    transform: scale(1.08);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin-bottom: 8px;
+}
+
+.card-body p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+/* ---- PAGE DETAILS ---- */
+#destination-details {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    animation: fadeIn 1s ease;
+}
+
+.details-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* ---- GALLERY ---- */
+.gallery-grid {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+.gallery-grid img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* ---- ANIMATIONS ---- */
+@keyframes fadeIn {
+    from {opacity: 0;} to {opacity: 1;}
+}
+@keyframes slideDown {
+    from {transform: translateY(-40px); opacity: 0;} 
+    to {transform: translateY(0); opacity: 1;}
+}
+@keyframes slideUp {
+    from {transform: translateY(40px); opacity: 0;} 
+    to {transform: translateY(0); opacity: 1;}
+}
+@keyframes cardFadeUp {
+    from {transform: translateY(20px); opacity: 0;} 
+    to {transform: translateY(0); opacity: 1;}
+}
+body.dark {
+    background: #0f0f0f;
+    color: #e6e6e6;
+}
+
+body.dark header {
+    background: rgba(255,255,255,0.1);
+}
+
+body.dark nav a {
+    color: #fff;
+}
+
+body.dark .card {
+    background: #1a1a1a;
+}
+
+body.dark .button {
+    background: #1e90ff;
+}
+.slider {
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.slides {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    animation: fade 12s infinite;
+    opacity: 0;
+}
+
+.slides:nth-child(1) { animation-delay: 0s; }
+.slides:nth-child(2) { animation-delay: 4s; }
+.slides:nth-child(3) { animation-delay: 8s; }
+
+@keyframes fade {
+    0% {opacity:0;}
+    10% {opacity:1;}
+    30% {opacity:1;}
+    40% {opacity:0;}
+    100% {opacity:0;}
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    color: white;
+    text-shadow: 0 3px 10px #000;
+}
+.scroll-anim {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s ease;
+}
+
+.scroll-anim.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+body {
+    background: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.45);
+    z-index: -1;
+}
